@@ -1,4 +1,4 @@
-# LUO Yiyang, Lawrence
+# LUO Yiyang, Lawrence's Personal Page
 **Welcome to my personal page!**
 
 This page is still under construction, more details will be added!
