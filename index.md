@@ -3,7 +3,7 @@
 This page is still under construction, more details will be added!
 
 ## Biography
-I got my bachelor's degreee from The Chinese University of Hong Kong. I am now working at SmartMore as a computer vision algorithm engineer intern.
+I got my bachelor's degree from The Chinese University of Hong Kong. I am now working at SmartMore as a computer vision algorithm engineer intern.
 
 I can be reached through my personal Email(lyy000804[at]gmail.com)
 
