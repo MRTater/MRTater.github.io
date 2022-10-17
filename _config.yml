@@ -81,11 +81,11 @@ analytics:
 # Site Author
 author:
   name             : "Luo Yiyang, Lawrence"
-  avatar           : "profile.png"
+  avatar           : "profile1.png"
   bio              : "Keep calm and keep coding"
   location         : "China"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   googlescholar    :
   email            : "lyy000804[at]gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
