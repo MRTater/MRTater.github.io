@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55252a5c-b213-489d-91bd-22882a3d3b57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2022-06-24-PaperReading.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/profile1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-08-14-blog-post-1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-08-14-blog-post-2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-08-14-blog-post-3.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-08-14-blog-post-4.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_publications/2010-10-01-paper-title-number-2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_publications/2015-10-01-paper-title-number-3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2022-06-24-PaperReading.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2022-06-24-PaperReading.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profile1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/profile1.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665993854624</updated>
-      <workItem from="1665993856476" duration="5870000" />
+      <workItem from="1665993856476" duration="6532000" />
     </task>
     <servers />
   </component>

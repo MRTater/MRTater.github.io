@@ -1,7 +1,7 @@
 ---
 title: 'Bag of Fressbies for Training Object Detection Neural Networks 论文笔记'
 date: 2022-06-24
-permalink: /_posts/2022-06-24-PaperReading
+permalink: /posts/2022/06/PaperReading
 tags:
   - Paper Reading
 ---
