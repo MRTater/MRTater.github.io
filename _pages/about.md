@@ -16,4 +16,4 @@ redirect_from:
 * MSAI. from **Nanyang Technological University**
 * Internship as Computer Vision Algorithm Engineer at **[SmartMore](https://smartmore.global/)**
 * BSc. Computer Science from **The Chinese University of Hong Kong**
-* 70% of my body is made of movies, animates and games:) I'm a big fan of cool staffs!
+* 70% of my body is made of movies, animates and games: ) 
