@@ -1,10 +1,12 @@
 ---
 title: 'Deep High-Resolution Representation Learning for Visual Recognition 论文笔记'
 date: 2022-06-08
-permalink: /posts/2022/06/PaperReading/Deep High-Resolution Representation Learning for Visual Recognition
+permalink: /posts/2022/06/PaperReading/HRNet
 tags:
   - Paper Reading
 ---
+
+多尺度融合的大成之作，在多种分割任务上发挥着作用。
 
 1. 作者信息
     
