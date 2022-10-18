@@ -5,7 +5,6 @@ permalink: /posts/2022/06/PaperReading/Bag of Freebies for Training Object Detec
 tags:
   - Paper Reading
 ---
-## Bag of Freebies for Training Object Detection Neural Networks 
 
 1. 作者信息
 

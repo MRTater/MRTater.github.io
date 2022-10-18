@@ -5,7 +5,6 @@ permalink: /posts/2022/06/PaperReading/Deep High-Resolution Representation Learn
 tags:
   - Paper Reading
 ---
-## Deep High-Resolution Representation Learning for Visual Recognition
 
 1. 作者信息
     
