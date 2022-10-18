@@ -5,7 +5,7 @@ permalink: /posts/2022/06/PaperReading/Deep High-Resolution Representation Learn
 tags:
   - Paper Reading
 ---
-## Deep High-Resolution Representation Learning for Visual Recognition
+## Deep High-Resolution Representation Learning for Visual Recognition 论文笔记
 
 1. 作者信息
     
@@ -53,11 +53,11 @@ tags:
     开始训练后，逐步增加high-to-low流，并将多个分辨率的流进行链接。
     - 主体共有四个阶段，每个阶段分别重复1，1，4，3次。
     - 每个模块由4个残差网络单元组成，每个残差网络单元内对每种分辨率都有两个3*3卷积，并在卷积后进行batch normalization和ReLU激活。
-    ![avatar](PaperReading-Image/HRNet/algorithm1.png)
+    ![avatar](https://github.com/MRTater/MRTater.github.io/blob/master/_posts/PaperReading-Image/HRNet/algorithm1.png)
     Multi-Resolution Fusions：多分辨率链接的过程。低到高就上采样，高到低就下采样，最后将变化完成之后的feature map相加。
-    ![avatar](PaperReading-Image/HRNet/algorithm2.png)
+    ![avatar](https://github.com/MRTater/MRTater.github.io/blob/master/_posts/PaperReading-Image/HRNet/algorithm2.png)
     Representation Head：作者设计了三种不同的网络结构来对应不同的任务。
-    ![avatar](PaperReading-Image/HRNet/algorithm3.png)
+    ![avatar](https://github.com/MRTater/MRTater.github.io/blob/master/_posts/PaperReading-Image/HRNet/algorithm3.png)
     - HRNetV1：只输出高分辨率的特征，用于pose estimate任务。
     - HRNetV2：将低分辨率的表征上采样并最终将来自四个分辨率的表征图链接，用于分割任务。
     - HRNetV2p：将HRNetV2输出的高分辨率表征进行下采样形成特征金字塔，用于目标检测。
@@ -67,8 +67,8 @@ tags:
     实验结果丰富全面、在不同数据集上有大量对比实验（但大多数是为了打榜而生），这边只摘抄了部分实验结果。
 
     实验一：Pose estimate（HRNetV1）
-    ![avatar](PaperReading-Image/HRNet/exp1.png)
-    ![avatar](PaperReading-Image/HRNet/exp2.png)
+    ![avatar](https://github.com/MRTater/MRTater.github.io/blob/master/_posts/PaperReading-Image/HRNet/exp1.png)
+    ![avatar](https://github.com/MRTater/MRTater.github.io/blob/master/_posts/PaperReading-Image/HRNet/exp2.png)
     - 结论：pretrain提升明显，W48对比W32有提升但提升较小，且参数量的运算量成倍增加（受网络结构的影响），sota
 
     实验二：Semantic segmentation
