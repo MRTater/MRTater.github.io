@@ -1,11 +1,11 @@
 ---
-title: 'Deep High-Resolution Representation Learning for Visual Recognition'
+title: 'Deep High-Resolution Representation Learning for Visual Recognition 论文笔记'
 date: 2022-06-08
 permalink: /posts/2022/06/PaperReading/Deep High-Resolution Representation Learning for Visual Recognition
 tags:
   - Paper Reading
 ---
-## Deep High-Resolution Representation Learning for Visual Recognition 论文笔记
+## Deep High-Resolution Representation Learning for Visual Recognition
 
 1. 作者信息
     
