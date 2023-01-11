@@ -3,6 +3,7 @@ title: 'Bag of Freebies for Training Object Detection Neural Networks 论文笔�
 date: 2022-06-24
 permalink: /posts/2022/06/PaperReading/BFTOD 
 tags:
+  - Computer Vision
   - Paper Reading
 ---
 
