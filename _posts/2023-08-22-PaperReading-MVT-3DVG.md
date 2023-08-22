@@ -1,6 +1,6 @@
 ---
 title: 'Multi-View Transformer for 3D Visual Grounding Paper Reading'
-date: 2199-01-01
+date: 2023-08-22
 permalink: /posts/PaperReading/MVT-3DVG/
 tags:
   - Computer Vision
