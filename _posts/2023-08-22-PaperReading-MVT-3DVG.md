@@ -6,6 +6,9 @@ tags:
   - Computer Vision
   - Paper Reading
 ---
+
+Easy and effective 3D visual grounding.
+
 # Multi-View Transformer for 3D Visual Grounding
 
 ## Abstract
