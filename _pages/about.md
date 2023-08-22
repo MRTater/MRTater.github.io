@@ -13,6 +13,7 @@ redirect_from:
 > ***And things are not always #000000 or #FFFFFF***
 
 **About me:**  
+* Internship as Research Intern at **[Huawei Hong Kong Research Center](https://www.huawei.com/en/)**
 * MSAI. from **Nanyang Technological University**
 * Internship as Computer Vision Algorithm Engineer at **[SmartMore](https://smartmore.global/)**
 * BSc. Computer Science from **The Chinese University of Hong Kong**
