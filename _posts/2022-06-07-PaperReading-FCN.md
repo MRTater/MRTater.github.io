@@ -1,7 +1,7 @@
 ---
 title: 'Fully Convolutional Networks for Semantic Segmentation 论文笔记'
 date: 2022-06-07
-permalink: /posts/2022/06/FCN/
+permalink: /posts/PaperReading/FCN/
 tags:
   - Computer Vision
   - Paper Reading

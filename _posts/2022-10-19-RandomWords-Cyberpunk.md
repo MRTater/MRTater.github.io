@@ -1,7 +1,7 @@
 ---
 title: '*Cyber Punk: Edge Runner* review'
 date: 2022-10-19
-permalink: /posts/2022/10/CyberPunk/
+permalink: /posts/Thoughts/CyberPunk/
 tags:
   - Random words
   - Movie Review

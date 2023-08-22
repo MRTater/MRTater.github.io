@@ -1,7 +1,7 @@
 ---
 title: 'Deep High-Resolution Representation Learning for Visual Recognition 论文笔记'
 date: 2022-06-08
-permalink: /posts/2022/06/PaperReading/HRNet
+permalink: /posts/PaperReading/HRNet
 tags:
   - Computer Vision
   - Paper Reading
