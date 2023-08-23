@@ -21,7 +21,7 @@ According to the paper, the existing works in 3D visual grounding mainly follow 
 
 In the context of the 3D visual grounding task, query data can be categorized into two fundamental groups: explicit view-related queries and implicit view-related queries. Taking the Nr3D as an illustration, consider querying for the same nightstand. In this scenario, diverse utterances emerge, such as "if you face the bed, you need to select the nightstand that is on the right" and "nightstand closer to the desk." The initial query explicitly indicates the direction of the view, while the latter query does not provide this specific information.
 
-![Figure 1. The Nr3D visualization. There are two different types of query, view-explicit and view-implicit.](Multi-View%20Transformer%20for%203D%20Visual%20Grounding%202c383f289d1442d2a11d3e78d358ce58/Untitled.png)
+![Figure 1. The Nr3D visualization. There are two different types of query, view-explicit and view-implicit.](ttps://github.com/MRTater/MRTater.github.io/raw/master/_posts/PaperReading-Image/MVT-3DVG/Dataset.png)
 
 Figure 1. The Nr3D visualization. There are two different types of query, view-explicit and view-implicit.
 
@@ -37,7 +37,7 @@ Subsequently, the MVT approach disentangles the computation of 3D object represe
 
 Lastly, the Multi-Modal Feature Fusion employs a conventional transformer decoder, where BERT-encoded language features serve as queries and object features as keys. The outcome of the transformer decoder is dimensionally reduced by averaging across the view dimension.
 
-![Figure 2. The network structure of Multi-View Transformer.](Multi-View%20Transformer%20for%203D%20Visual%20Grounding%202c383f289d1442d2a11d3e78d358ce58/Untitled%201.png)
+![Figure 2. The network structure of Multi-View Transformer.](https://github.com/MRTater/MRTater.github.io/raw/master/_posts/PaperReading-Image/MVT-3DVG/Network.png)
 
 Figure 2. The network structure of Multi-View Transformer.
 
