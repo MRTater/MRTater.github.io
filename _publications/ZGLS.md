@@ -4,7 +4,6 @@ collection: publications
 permalink: /publication/ZGLS
 date: 2023-12-14
 venue: 'NAACL-2024'
-# authors: 'Lin, K., Luo, Y., Zhang, Z., & Luo, P.'
 citation: 'Lin, K., Luo, Y., Zhang, Z., & Luo, P.(2023). Zero-Shot Generative Linguistic Steganography. Submitted to 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL).'
 ---
 <!-- Full paper please click [here](). -->

@@ -1,7 +1,6 @@
 ---
 permalink: /
 title: "Lawrence's Personal Page"
-excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -21,4 +20,4 @@ redirect_from:
 
 **Research Interest:**
 * 3D Computer Vision and Scene Understanding
-* Security of Large Language Model 
+* Large Language Model watermarking and detection

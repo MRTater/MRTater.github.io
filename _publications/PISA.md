@@ -4,7 +4,6 @@ collection: publications
 permalink: /publication/PISA
 date: 2023-11-07
 venue: 'arXiv-2311.16501'
-# authors: 'Yiyang Luo*, Ke Lin*'
 citation: 'Luo, Y.* & Lin, K.* (2023). PISA: Point-cloud-based Instructed Scene Augmentation. arXiv preprint [Cs.CV] arXiv: arXiv.2311.16501.'
 ---
 Full paper please click [here](https://arxiv.org/abs/2311.16501).
