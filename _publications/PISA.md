@@ -4,8 +4,8 @@ collection: publications
 permalink: /publication/PISA
 date: 2023-11-07
 venue: 'arXiv-2311.16501'
-authors: 'Yiyang Luo*, Ke Lin*'
-# citation: 'J. Zhou, C. Leong, Y. Luo, M. Lin, W. Liao and C. Li, "Unified Feature Fusion Network with Path Router for Multi-task Image Restoration," 2021 IEEE 21st International Conference on Communication Technology (ICCT), Tianjin, China, 2021, pp. 1206-1210, doi: 10.1109/ICCT52962.2021.9658001.'
+# authors: 'Yiyang Luo*, Ke Lin*'
+citation: 'Luo, Y.* & Lin, K.* (2023). PISA: Point-cloud-based Instructed Scene Augmentation. arXiv preprint [Cs.CV] arXiv: arXiv.2311.16501.'
 ---
 Full paper please click [here](https://arxiv.org/abs/2311.16501).
 

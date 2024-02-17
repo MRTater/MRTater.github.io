@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/UFFNPR
 date: 2021-10-13
 venue: 'ICCT 2021'
-# citation: 'J. Zhou, C. Leong, Y. Luo, M. Lin, W. Liao and C. Li, "Unified Feature Fusion Network with Path Router for Multi-task Image Restoration," 2021 IEEE 21st International Conference on Communication Technology (ICCT), Tianjin, China, 2021, pp. 1206-1210, doi: 10.1109/ICCT52962.2021.9658001.'
+citation: 'J. Zhou, C. Leong, Y. Luo, M. Lin, W. Liao and C. Li, "Unified Feature Fusion Network with Path Router for Multi-task Image Restoration," 2021 IEEE 21st International Conference on Communication Technology (ICCT), Tianjin, China, 2021, pp. 1206-1210, doi: 10.1109/ICCT52962.2021.9658001.'
 ---
 Full paper please click [here](https://ieeexplore.ieee.org/document/9658001).
 
