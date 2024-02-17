@@ -18,3 +18,7 @@ redirect_from:
 * Internship as Computer Vision Algorithm Engineer at **[SmartMore](https://smartmore.global/)**
 * BSc. Computer Science from **The Chinese University of Hong Kong**
 * 70% of my body is made of movies, animates and games: ) 
+
+**Research Interest:**
+* 3D Computer Vision and Scene Understanding
+* Security of Large Language Model 
