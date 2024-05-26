@@ -12,6 +12,7 @@ redirect_from:
 > ***And things are not always #000000 or #FFFFFF***
 
 **About me:**  
+* Currently working as AI Research Engineer at **[Huawei Singapore Research Center](https://www.huawei.com/en/)**
 * Internship as Research Intern at **[Huawei Hong Kong Research Center](https://www.huawei.com/en/)**
 * MSAI. from **Nanyang Technological University**
 * Internship as Computer Vision Algorithm Engineer at **[SmartMore](https://smartmore.global/)**
@@ -20,4 +21,5 @@ redirect_from:
 
 **Research Interest:**
 * 3D Computer Vision and Scene Understanding
-* Large Language Model watermarking and detection
+* Prompt Engine and Multi-agent System for Large Language Models
+* Large Language Models watermarking and detection

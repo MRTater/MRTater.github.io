@@ -3,7 +3,7 @@ title: "Lost in Overlap: Exploring Watermark Collision in LLMs."
 collection: publications
 permalink: /publication/wms_collision
 date: 2024-02-15
-venue: 'ACL-2024'
+venue: 'arXiv'
 citation: 'Luo, Y.*, Lin, K.* & Chao, G.(2024). Lost in Overlap: Exploring Watermark Collision in LLMs. Submitted to the 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024).'
 ---
 <!-- Full paper please click [here](). -->

@@ -3,7 +3,7 @@ title: "PISA: Point Cloud-based Instructed Scene Augmentation"
 collection: publications
 permalink: /publication/PISA
 date: 2023-11-07
-venue: 'arXiv-2311.16501'
+venue: 'arXiv'
 citation: 'Luo, Y.* & Lin, K.* (2023). PISA: Point-cloud-based Instructed Scene Augmentation. arXiv preprint [Cs.CV] arXiv: arXiv.2311.16501.'
 ---
 Full paper please click [here](https://arxiv.org/abs/2311.16501).
