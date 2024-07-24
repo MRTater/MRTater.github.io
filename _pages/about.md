@@ -25,4 +25,4 @@ redirect_from:
 * Large Language Models watermarking and detection
 
 ## Selected Publications
-See the (Publications)[https://mrtater.github.io/publications/].
+See the [Publications](https://mrtater.github.io/publications/).
