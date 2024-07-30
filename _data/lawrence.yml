@@ -1,0 +1,43 @@
+title: "Lawrence's Personal Page"  
+author_profile: true  
+redirect_from:  
+  - /about/  
+  - /about.html  
+
+greeting: "Greetings 👋 Welcome to my page!"  
+quote1: "There is no place like 127.0.0.1"  
+quote2: "And things are not always #000000 or #FFFFFF"  
+
+education:  
+  - institute: "Nanyang Technological University"  
+    degree: "MSAI."  
+    dates: "2023.01 - 2024.05"  
+    icon: "misc/ntu.jpg" # Add the image in assets/images directory  
+  - institute: "The Chinese University of Hong Kong"  
+    degree: "BSc. Computer Science"  
+    dates: "2018.09 - 2022.07"  
+    icon: "misc/cuhk.jpg" # Add the image in assets/images directory  
+
+career:  
+  - title: "AI Research Engineer"  
+    company: "Huawei Singapore Research Center"  
+    link: "https://www.huawei.com/en/"  
+    dates: "2024.05 - present"  
+  - title: "Research Intern"  
+    company: "Huawei Hong Kong Research Center"  
+    link: "https://www.huawei.com/en/"  
+    dates: "2023.05 - 2023.08"  
+  - title: "Computer Vision Algorithm Engineer"  
+    company: "SmartMore"  
+    link: "https://smartmore.global/"  
+    dates: "2022.06 - 2022.12"  
+
+research_interest:  
+  - "3D Computer Vision and Scene Understanding"  
+  - "Prompt Engine and Multi-agent System for Large Language Models"  
+  - "Large Language Models watermarking and detection"  
+
+publications_link: "https://mrtater.github.io/publications/"  
+
+services:  
+  reviewer: "MM"

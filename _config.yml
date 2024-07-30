@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Lawrence Luo's Personal Page"
+title                    : ""
 title_separator          : "-"
 name                     : &name "Yiyang Luo, Lawrence"
 description              : &description "personal description"
@@ -24,7 +24,7 @@ author:
   name             : "Yiyang Luo, Lawrence"
   bio              : "Keep calm and keep coding"
   # location         : "Singapore, Singapore"
-  avatar           : "selfie.jpeg"
+  avatar           : "avatar/my_photo.jpg"
   pronouns         : "he/him" # example: "she/her"  
   employer         : 
   # uri              : "MRTater.github.io"
@@ -107,7 +107,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : True     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 

@@ -1,37 +1,80 @@
-<!DOCTYPE html>  
-<html lang="en">  
-<head>  
-    <meta charset="UTF-8">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>{{ page.title }}</title>  
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">  
-</head>  
-<body>  
+<html lang="en">
 
-    <header>  
-        <h1>{{ site.title }}</h1>  
-        {%- if author_profile -%}  
-            <div class="author-profile">  
-                <p>Author: {{ site.author.name }}</p>  
-            </div>  
-        {%- endif -%}  
-        <nav>  
-            <ul>  
-                <li><a href="{{ '/' | relative_url }}">Home</a></li>  
-                <li><a href="{{ '/about/' | relative_url }}">About</a></li>  
-                <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>  
-            </ul>  
-        </nav>  
-    </header>  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawrence's Resume</title>
+    <style>
+        .education-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
 
-    <main>  
-        {{ content }}  
-    </main>  
+        .education-icon {
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            margin-right: 20px;
+            object-fit: cover;
+        }
+    </style>
+</head>
 
-    <footer>  
-        <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }}. All rights reserved.</p>  
-        <p>Maintained by {{ page.author_profile | default: site.author.name }}</p>  
-    </footer>  
+<body>
+    <header>
+        <h1>{{ site.data.lawrence.greeting }}</h1>
+        <blockquote>
+            <p>{{ site.data.lawrence.quote1 }}</p>
+            <p>{{ site.data.lawrence.quote2 }}</p>
+        </blockquote>
+    </header>
 
-</body>  
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            {% for item in site.data.lawrence.education %}
+            <li class="education-item">
+                <img src="/images/{{ item.icon }}" alt="{{ item.institute }}" class="education-icon">
+                <div>
+                    <strong>{{ item.institute }}</strong><br>
+                    {{ item.dates }}<br>
+                    <strong>{{ item.degree }}</strong>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section id="career">
+        <h2>Career</h2>
+        <ul>
+            {% for job in site.data.lawrence.career %}
+            <li>
+                <strong>{{ job.title }}</strong> at <a href="{{ job.link }}">{{ job.company }}</a> ({{ job.dates }})
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section id="research-interest">
+        <h2>Research Interest</h2>
+        <ul>
+            {% for interest in site.data.lawrence.research_interest %}
+            <li>{{ interest }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section id="publications">
+        <h2>Selected Publications</h2>
+        <p>See <a href="{{ site.data.lawrence.publications_link }}">Publications</a>.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>Reviewer: {{ site.data.lawrence.services.reviewer }}</p>
+    </section>
+</body>
+
 </html>

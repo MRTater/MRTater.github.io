@@ -6,26 +6,40 @@ layout: compress
 
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
+
+<head>
     {% include head.html %}
     {% include head/custom.html %}
-  </head>
+</head>
 
-  <body>
+<body>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    {{ content }}
+    <div class="container">
+        <div class="content-wrapper">
+            <aside class="sidebar">
+                <!-- This is where your user profile code will go, if it is included in content -->
+            </aside>
+            <main class="main-content">
+                {{ content }}
+            </main>
+        </div>
+    </div>
 
+    
+    {% comment %}
     <div class="page__footer">
       <footer>
         {% include footer/custom.html %}
         {% include footer.html %}
       </footer>
     </div>
+    {% endcomment %}
 
     {% include scripts.html %}
 
-  </body>
+</body>
+
 </html>

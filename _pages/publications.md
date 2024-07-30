@@ -27,17 +27,23 @@ author_profile: true
     box-shadow: 0px 0px 15px rgba(0,0,0,0.05); /* Subtle shadow */  
     display: flex; /* Flex display to align items horizontally */  
     flex-direction: row-reverse; /* Reverse the row to place image on right */  
+    align-items: flex-start; /* Align items at the start */  
+    overflow: hidden; /* Hide overflow content */  
 }  
 
 .pub-image-wrapper {  
     flex-shrink: 0; /* Prevent the image from shrinking */  
     margin-left: 10px; /* Space between image and content */  
-    max-width: 40%
+    max-width: 40%; /* Fixed max-width for the image's wrapper */  
+    display: flex; /* Use flex to align image within the wrapper */  
+    align-items: center; /* Center image vertically */  
+    justify-content: center; /* Center image horizontally */  
 }  
 
 .pub-image-wrapper img {  
     display: block; /* Ensure image is block-level */  
     width: 100%; /* Set a fixed width for the image */  
+    height: auto; /* Maintain aspect ratio */  
     border-radius: 8px; /* Rounded corners */  
 }  
 
@@ -46,7 +52,7 @@ author_profile: true
 }  
 
 .pub-title a {  
-    font-size: 1.5em; /* Larger font size for title */  
+    font-size: 1.2em; /* Larger font size for title */  
     font-weight: bold; /* Bold font */  
     text-decoration: none; /* Remove underline */  
     color: #333; /* Dark color */  
@@ -119,6 +125,7 @@ author_profile: true
     .publication {  
         padding: 8px; /* Reduce padding */  
         flex-direction: column-reverse; /* Stack items vertically on small screens */  
+        height: auto; /* Allow height to adjust for smaller screens */  
     }  
 
     .pub-image-wrapper {  
@@ -126,7 +133,7 @@ author_profile: true
         margin-right: 0;  
         margin-top: 10px; /* Reduce space between image and content on small screens */  
         max-width: 100%; /* Image takes full width on small screens */  
-    } 
+    }   
 
     .pub-title a {  
         font-size: 1.2em; /* Smaller font size */  
