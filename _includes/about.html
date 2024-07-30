@@ -1,0 +1,37 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>{{ page.title }}</title>  
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">  
+</head>  
+<body>  
+
+    <header>  
+        <h1>{{ site.title }}</h1>  
+        {%- if author_profile -%}  
+            <div class="author-profile">  
+                <p>Author: {{ site.author.name }}</p>  
+            </div>  
+        {%- endif -%}  
+        <nav>  
+            <ul>  
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>  
+                <li><a href="{{ '/about/' | relative_url }}">About</a></li>  
+                <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>  
+            </ul>  
+        </nav>  
+    </header>  
+
+    <main>  
+        {{ content }}  
+    </main>  
+
+    <footer>  
+        <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }}. All rights reserved.</p>  
+        <p>Maintained by {{ page.author_profile | default: site.author.name }}</p>  
+    </footer>  
+
+</body>  
+</html>
