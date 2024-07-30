@@ -1,0 +1,217 @@
+{% include base_path %}  
+
+{% if post.teaser %}  
+  {% capture teaser %}{{ post.teaser }}{% endcapture %}  
+{% else %}  
+  {% assign teaser = site.teaser %}  
+{% endif %}  
+
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}  
+
+<!-- Embedded CSS for Publication Styling -->  
+<style>  
+.publication {  
+    border: 1px solid #e0e0e0; /* Light grey border */  
+    padding: 10px; /* Padding around content */  
+    margin: 10px 0; /* Margin around the publication block */  
+    border-radius: 10px; /* Rounded corners */  
+    background-color: #ffffff; /* White background */  
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.05); /* Subtle shadow */  
+    display: flex; /* Flex display to align items horizontally */  
+    flex-direction: row-reverse; /* Reverse the row to place image on right */  
+}  
+
+.pub-image-wrapper {  
+    flex-shrink: 0; /* Prevent the image from shrinking */  
+    margin-left: 10px; /* Space between image and content */  
+    max-width: 40%
+}  
+
+.pub-image-wrapper img {  
+    display: block; /* Ensure image is block-level */  
+    width: 100%; /* Set a fixed width for the image */  
+    border-radius: 8px; /* Rounded corners */  
+}  
+
+.pub-content-wrapper {  
+    flex-grow: 1; /* Allow content to grow and take up remaining space */  
+}  
+
+.pub-title a {  
+    font-size: 1.5em; /* Larger font size for title */  
+    font-weight: bold; /* Bold font */  
+    text-decoration: none; /* Remove underline */  
+    color: #333; /* Dark color */  
+}  
+
+.pub-title a:hover {  
+    color: #007BFF; /* Blue on hover */  
+}  
+
+.pub-author {  
+    font-size: 1em;  
+    color: #666; /* Grey text color */  
+    margin-bottom: 5px;  
+}  
+
+.pub-author .highlight {  
+    text-decoration: underline;  
+    font-weight: bold;  
+}  
+
+.pub-venue {  
+    display: inline-block;  
+    background-color: #f1f1f1; /* Light grey background */  
+    border: 1px solid #ddd; /* Light border */  
+    padding: 2px 8px; /* Reduced padding */  
+    margin: 5px 0; /* Margin */  
+    border-radius: 8px; /* Rounded corners */  
+    font-size: 0.9em; /* Smaller font size */  
+    font-weight: bold; /* Bold font */  
+    color: #333; /* Text color */  
+    white-space: nowrap; /* Prevent wrapping */  
+}  
+
+.pub-tag {  
+    display: inline-block;  
+    background-color: #007BFF; /* Blue background */  
+    color: #ffffff; /* White text */  
+    padding: 5px 10px; /* Padding */  
+    margin: 5px 2px; /* Margin */  
+    border-radius: 12px; /* Rounded corners */  
+    font-size: 0.875em; /* Slightly smaller font size */  
+    text-align: center; /* Center the text */  
+}  
+
+.pub-misc a {  
+    color: #333;  
+    text-decoration: none;  
+    font-weight: bold;  
+}  
+
+.pub-misc a:hover {  
+    color: #0056b3;  
+}  
+
+.abstract-box {  
+    display: none; /* Initially hidden */  
+    background-color: #f9f9f9; /* Light grey background */  
+    border: 1px solid #ccc; /* Light grey border */  
+    padding: 15px; /* Padding around text */  
+    margin: 10px 0; /* Margin above and below */  
+    border-radius: 5px; /* Rounded corners */  
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */  
+    white-space: normal; /* Ensures normal text wrapping */  
+    word-wrap: break-word;  
+    overflow-wrap: break-word;  
+}  
+
+/* Responsive Design */  
+@media (max-width: 768px) {  
+    .publication {  
+        padding: 8px; /* Reduce padding */  
+        flex-direction: column-reverse; /* Stack items vertically on small screens */  
+    }  
+
+    .pub-image-wrapper {  
+        margin-left: 0;  
+        margin-right: 0;  
+        margin-top: 10px; /* Reduce space between image and content on small screens */  
+        max-width: 100%; /* Image takes full width on small screens */  
+    } 
+
+    .pub-title a {  
+        font-size: 1.2em; /* Smaller font size */  
+    }  
+
+    .pub-venue {  
+        font-size: 0.9em; /* Smaller font size */  
+    }  
+
+    .pub-tag {  
+        font-size: 0.75em; /* Smaller font size */  
+    }  
+}  
+</style>  
+
+<div class="publication">  
+  <div class="pub-image-wrapper">  
+    {% if teaser %}  
+      {% if teaser contains '://' %}  
+        <!-- If the teaser is an absolute URL -->  
+        <img src="{{ teaser }}" alt="">  
+      {% else %}  
+        <!-- If the teaser is a local path -->  
+        <img src="{{ teaser | prepend: base_path }}" alt="">  
+      {% endif %}  
+    {% endif %}  
+  </div>
+  <div class="pub-content-wrapper">  
+    <div class="pub-content">  
+      <div class="pub-innerblock">  
+        <div class="pub-title">  
+          {% if post.link %}  
+            <a href="{{ post.link }}">{{ title }}</a>  
+          {% else %}  
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>  
+          {% endif %}  
+        </div>  
+        <div class="pub-author">  
+          {% assign emphasized_author = "Yiyang" %}  
+          {% for author in post.authors | split: "," %}  
+            {% if author contains emphasized_author %}  
+              <span class="highlight">{{ author }}</span>{% if forloop.last == false %}, {% endif %}  
+            {% else %}  
+              {{ author }}{% if forloop.last == false %}, {% endif %}  
+            {% endif %}  
+          {% endfor %}  
+        </div>  
+        <div class="pub-venue">{{ post.venue }}</div>  
+        <div>  
+          {% for tag in post.tags %}  
+            <span class="pub-tag">{{ tag }}</span>  
+          {% endfor %}  
+        </div>  
+      </div>  
+      <div class="pub-misc">  
+        <!-- {% if post.paperurl %}  
+          <a href="{{ post.paperurl }}" target="_blank">Download Paper</a> |   
+        {% endif %}   -->
+        {% if post.abstract %}  
+          <a href="javascript:void(0);" onclick="toggle('{{ post.title | slugify }}_abs');">Abstract</a>  
+        {% endif %}  
+        {% if post.slidesurl %}  
+          | <a href="{{ post.slidesurl }}" target="_blank">Download Slides</a>   
+        {% endif %}  
+        {% if post.codeurl %}  
+          | <a href="{{ post.codeurl }}" target="_blank">Code</a>  
+        {% endif %}  
+        {% if post.projecturl %}  
+          | <a href="{{ post.projecturl }}" target="_blank">Project Page</a>  
+        {% endif %}  
+      </div>  
+    </div>  
+    {% if post.abstract %}  
+      <div id="{{ post.title | slugify }}_abs" class="abstract-box">  
+        {{ post.abstract }}  
+      </div>  
+    {% endif %}  
+  </div>  
+</div>  
+
+<!-- Conditional Note (adjust as needed) -->  
+{% if page.include_note %}  
+  <p>* denotes equal contribution.</p>  
+{% endif %}  
+
+<!-- Toggle Abstract Script -->  
+<script type="text/javascript">  
+    function toggle(id) {  
+        var element = document.getElementById(id);  
+        if (element.style.display === "none") {  
+            element.style.display = "block";  
+        } else {  
+            element.style.display = "none";  
+        }  
+    }  
+</script>

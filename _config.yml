@@ -23,11 +23,11 @@ author:
   # Biographic information
   name             : "Yiyang Luo, Lawrence"
   bio              : "Keep calm and keep coding"
-  location         : "Guangzhou, China"
+  # location         : "Singapore, Singapore"
   avatar           : "selfie.jpeg"
   pronouns         : "he/him" # example: "she/her"  
   employer         : 
-  uri              : "MRTater.github.io"
+  # uri              : "MRTater.github.io"
   email            : "lawrence.luoyy[at]gmail.com" 
 
   # Academic websites
@@ -61,7 +61,7 @@ author:
   medium           : # URL
   pinterest        : # Username
   soundcloud       : # Username
-  steam            : "76561198201639859"
+  steam            : #"76561198201639859"
   telegram         : # URL
   tumblr           : # Username
   twitter          : # Replace this with your X / Twitter handle
