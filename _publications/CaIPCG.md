@@ -4,7 +4,8 @@ authors: [Yiyang Luo*, Ke Lin*, Chao Gu]
 venue: "ACM MM 2024"  
 date: 2024-11-16  
 tags: [CCF A, CORE A*, 3D Vision, Generation]  
-teaser: "/images/paper/calpcg.jpg"  
+# teaser: "/images/paper/calpcg.jpg"  
+teaser: "https://ainnovatelab.github.io/Context-aware-Indoor-PCG/static/images/PISA-Intro.svg"  
 link: "https://arxiv.org/abs/2311.16501"  
 # paperurl: "https://example.com/paper-url.pdf"  
 # slidesurl: "https://example.com/slides-url.pdf"  

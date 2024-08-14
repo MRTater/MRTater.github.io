@@ -33,11 +33,13 @@ career:
     dates: "2022.06 - 2022.12"  
 
 research_interest:  
-  - "3D Computer Vision and Scene Understanding"  
-  - "Prompt Engine and Multi-agent System for Large Language Models"  
-  - "Large Language Models watermarking and detection"  
+  - Multi-modality Learning
+  - "3D Computer Vision and Scene Understanding"
+  - "Reinforcement Learning for LM in specific tasks"
+  # - "Prompt Engine and Multi-agent System for Large Language Models"
+  - "Large Language Models watermarking and detection"
 
 publications_link: "https://mrtater.github.io/publications/"  
 
 services:  
-  reviewer: "MM"
+  reviewer: "MM'24"
