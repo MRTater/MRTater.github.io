@@ -3,7 +3,7 @@ title: "Zero-shot Generative Linguistic Steganography"
 authors: [Ke Lin, Yiyang Luo, Zijian Zhang, and Luo Ping]
 venue: 'NAACL 2024'
 date: 2024-01-01
-tags: [CCF B, CORE A, Steganography]
+tags: [CCF B, CORE A, Security, Steganography]
 teaser: /images/paper/zgls.jpg
 link: https://aclanthology.org/2024.naacl-long.289/
 projecturl: https://leonardodalinky.github.io/zero-shot-GLS/

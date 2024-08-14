@@ -1,9 +1,9 @@
 ---
 title: "Lost in Overlap: Exploring Watermark Collision in LLMs."
 authors: [Yiyang Luo*, Ke Lin*, Chao Gu*]
-venue: 'arXiv'
+venue: 'Under Review'
 date: 2024-02-15
-tags: [Preprint, Watermarking]
+tags: [Preprint, Security, Watermarking]
 teaser: /images/paper/wm_collision.jpg
 link: https://arxiv.org/abs/2403.10020
 # codeurl: 
