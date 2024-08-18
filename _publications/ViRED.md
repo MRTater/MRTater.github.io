@@ -4,7 +4,7 @@ authors: [Chao Gu, Yiyang Luo, Ke Lin]
 venue: "Under Review"  
 date: 2024-11-16  
 tags: [2D Vision, Object Detection]  
-teaser: "https://ainnovatelab.github.io/ViRED/static/images/general_pipeline.svg"  
+teaser: /images/paper/ViRED.svg  
 # link: ""  
 # paperurl: "https://example.com/paper-url.pdf"  
 # slidesurl: "https://example.com/slides-url.pdf"  

@@ -4,7 +4,7 @@ authors: [Yiyang Luo*, Ke Lin*, Chao Gu*]
 venue: 'Under Review'
 date: 2024-02-15
 tags: [Preprint, Security, Watermarking]
-teaser: /images/paper/wm_collision.jpg
+teaser: /images/paper/wm_collision.svg
 link: https://arxiv.org/abs/2403.10020
 # codeurl: 
 # projecturl: 
