@@ -1,6 +1,6 @@
 ---  
 title: "ViRED: Prediction of Visual Relations in Engineering Drawings"  
-authors: [Chao Gu, Yiyang Luo, Ke Lin]  
+authors: [Chao Gu, Ke Lin, Yiyang Luo]  
 venue: "Under Review"  
 date: 2024-11-16  
 tags: [2D Vision, Object Detection]  
