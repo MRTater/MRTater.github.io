@@ -73,7 +73,14 @@
 
     <section id="services">
         <h2>Services</h2>
-        <p>Reviewer: {{ site.data.lawrence.services.reviewer }}</p>
+        <p>Reviewer: {% for item in site.data.lawrence.services.reviewer %}
+            {{item.venue}}
+            {% endfor %}
+        </p>
+        <p>Organiser: {% for item in site.data.lawrence.services.organiser %}
+            <a href="{{ item.link }}">{{item.venue}}</a>
+            {% endfor %}
+        </p>
     </section>
 </body>
 

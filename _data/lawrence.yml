@@ -33,13 +33,17 @@ career:
     dates: "2022.06 - 2022.12"  
 
 research_interest:  
-  - Multi-modality Learning
-  - "3D Computer Vision and Scene Understanding"
-  - "Reinforcement Learning for LM in specific tasks"
+  - Multi-modality LLMs
+  - 3D Scene Understanding/Generation/Arrangement
+  - Reinforcement Learning for LM
   # - "Prompt Engine and Multi-agent System for Large Language Models"
-  - "Large Language Models watermarking and detection"
+  # - Large Language Models watermarking and detection
 
 publications_link: "https://mrtater.github.io/publications/"  
 
 services:  
-  reviewer: "MM'24"
+  reviewer: 
+    - venue: ACMMM'24
+  organiser:
+    - venue: ACMMM'24 Workshop LGM3A
+      link: https://lgm3a.github.io/LGM3A2024/
