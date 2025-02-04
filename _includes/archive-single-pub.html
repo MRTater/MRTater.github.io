@@ -1,79 +1,71 @@
-{% include base_path %}  
+{% include base_path %}
 
-{% if post.teaser %}  
-  {% capture teaser %}{{ post.teaser }}{% endcapture %}  
-{% else %}  
-  {% assign teaser = site.teaser %}  
-{% endif %}  
+{% if post.teaser %}
+{% capture teaser %}{{ post.teaser }}{% endcapture %}
+{% else %}
+{% assign teaser = site.teaser %}
+{% endif %}
 
-{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}  
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 
-<div class="publication">  
-  <div class="pub-image-wrapper">  
-    {% if teaser %}  
-      {% if teaser contains '://' %}  
-        <!-- If the teaser is an absolute URL -->  
-        <img src="{{ teaser }}" alt="">  
-      {% else %}  
-        <!-- If the teaser is a local path -->  
-        <img src="{{ teaser | prepend: base_path }}" alt="">  
-      {% endif %}  
-    {% endif %}  
+<div class="publication">
+  <div class="pub-image-wrapper">
+    {% if teaser %}
+    {% if teaser contains '://' %}
+    <!-- If the teaser is an absolute URL -->
+    <img src="{{ teaser }}" alt="">
+    {% else %}
+    <!-- If the teaser is a local path -->
+    <img src="{{ teaser | prepend: base_path }}" alt="">
+    {% endif %}
+    {% endif %}
   </div>
-  <div class="pub-content-wrapper">  
-    <div class="pub-content">  
-      <div class="pub-innerblock">  
-        <div class="pub-title">  
-          {% if post.link %}  
-            <a href="{{ post.link }}">{{ title }}</a>  
-          {% else %}  
-            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>  
-          {% endif %}  
-        </div>  
-        <div class="pub-author">  
-          {% assign emphasized_author = "Yiyang" %}  
-          {% for author in post.authors | split: "," %}  
-            {% if author contains emphasized_author %}  
-              <span class="highlight">{{ author }}</span>{% if forloop.last == false %}, {% endif %}  
-            {% else %}  
-              {{ author }}{% if forloop.last == false %}, {% endif %}  
-            {% endif %}  
-          {% endfor %}  
-        </div>  
-        <div class="pub-venue">{{ post.venue }}</div>  
-        <div>  
-          {% for tag in post.tags %}  
-            <span class="pub-tag">{{ tag }}</span>  
-          {% endfor %}  
-        </div>  
-      </div>  
-      <div class="pub-misc">  
-        <!-- {% if post.paperurl %}  
-          <a href="{{ post.paperurl }}" target="_blank">Download Paper</a> |   
-        {% endif %}   -->
-        {% if post.abstract %}  
-          <a href="javascript:void(0);" onclick="toggle('{{ post.title | slugify }}_abs');">Abstract</a>  
-        {% endif %}  
-        {% if post.slidesurl %}  
-          | <a href="{{ post.slidesurl }}" target="_blank">Download Slides</a>   
-        {% endif %}  
-        {% if post.codeurl %}  
-          | <a href="{{ post.codeurl }}" target="_blank">Code</a>  
-        {% endif %}  
-        {% if post.projecturl %}  
-          | <a href="{{ post.projecturl }}" target="_blank">Project Page</a>  
-        {% endif %}  
-      </div>  
-    </div>  
-    {% if post.abstract %}  
-      <div id="{{ post.title | slugify }}_abs" class="abstract-box">  
-        {{ post.abstract }}  
-      </div>  
-    {% endif %}  
-  </div>  
-</div>  
-
-<!-- Conditional Note (adjust as needed) -->  
-{% if page.include_note %}  
-  <p>* denotes equal contribution.</p>  
-{% endif %}  
+  <div class="pub-content-wrapper">
+    <div class="pub-content">
+      <div class="pub-innerblock">
+        <div class="pub-title">
+          {% if post.link %}
+          <a href="{{ post.link }}">{{ title }}</a>
+          {% else %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+          {% endif %}
+        </div>
+        <div class="pub-author">
+          {% assign emphasized_author = "Yiyang" %}
+          {% for author in post.authors | split: "," %}
+          {% if author contains emphasized_author %}
+          <span class="highlight">{{ author }}</span>{% if forloop.last == false %}, {% endif %}
+          {% else %}
+          {{ author }}{% if forloop.last == false %}, {% endif %}
+          {% endif %}
+          {% endfor %}
+        </div>
+        <div class="pub-venue">{{ post.venue }}</div>
+        <div>
+          {% for tag in post.tags %}
+          <span class="pub-tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="pub-misc">
+        {% if post.abstract %}
+        <a href="javascript:void(0);" onclick="toggle('{{ post.title | slugify }}_abs');">Abstract</a>
+        {% endif %}
+        {% if post.slidesurl %}
+        | <a href="{{ post.slidesurl }}" target="_blank">Download Slides</a>
+        {% endif %}
+        {% if post.codeurl %}
+        | <a href="{{ post.codeurl }}" target="_blank">Code</a>
+        {% endif %}
+        {% if post.projecturl %}
+        | <a href="{{ post.projecturl }}" target="_blank">Project Page</a>
+        {% endif %}
+      </div>
+    </div>
+    {% if post.abstract %}
+    <div id="{{ post.title | slugify }}_abs" class="abstract-box">
+      {{ post.abstract }}
+    </div>
+    {% endif %}
+  </div>
+</div>
