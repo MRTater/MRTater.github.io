@@ -7,7 +7,8 @@ author_profile: true
 
 {% if site.author.googlescholar %}
   <p>
-  You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>. 
+  The following are selected publications.
+  For a complete list of my papers, please visit <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>. 
   </p>
   <p>
   * denotes equal contribution.
