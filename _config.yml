@@ -54,7 +54,7 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : "tater_lyy"
+  instagram        : # Username
   lastfm           : # Username
   linkedin         : "yiyang-luo-2851331a4"
   mastodon         : # URL
@@ -234,14 +234,14 @@ defaults:
       layout: single
       author_profile: true
   # _teaching
-#  - scope:
-#      path: ""
-#      type: teaching
-#    values:
-#      layout: single
-#      author_profile: true
-#      share: true
-#      comments: true
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _publications
   - scope:
       path: ""
@@ -252,22 +252,22 @@ defaults:
       share: true
       comments: true
   # _portfolio
-#  - scope:
-#      path: ""
-#      type: portfolio
-#    values:
-#      layout: single
-#      author_profile: true
-#      share: true
-#      comment: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
   # _talks
-#  - scope:
-#      path: ""
-#      type: talks
-#    values:
-#      layout: talk
-#      author_profile: true
-#      share: true
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 
 
 # Sass/SCSS
