@@ -7,6 +7,7 @@ redirect_from:
 greeting: "Greetings 👋 Welcome to my page!"  
 quote1: "There is no place like 127.0.0.1"  
 quote2: "And things are not always #000000 or #FFFFFF"  
+about_me: "As an AI Research Engineer, I specialize in advancing LLMs across diverse domains, including enhancing reasoning capabilities and improving generation quality. Prior to joining Huawei, I worked as an independent researcher with a focus on the intersection of NLP and 3D generation. Additionally, I have expertise in AI security, particularly in areas like LLM watermarking and steganography."
 
 education:  
   - institute: "Nanyang Technological University"  
