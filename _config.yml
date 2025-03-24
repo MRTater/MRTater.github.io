@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Lawrence Luo's Personal Page"
+title                    : "Yiyang's Personal Page"
 title_separator          : "-"
-name                     : &name "Yiyang Luo, Lawrence"
+name                     : &name "Yiyang Luo, Lawrence / 罗一洋"
 description              : &description "personal description"
 url                      : https://MRTater.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
