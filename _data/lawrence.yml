@@ -10,6 +10,10 @@ quote2: "And things are not always #000000 or #FFFFFF"
 about_me: "As an AI Research Engineer, I specialize in advancing LLMs across diverse domains, including enhancing reasoning capabilities and improving generation quality. Prior to joining Huawei, I worked as an independent researcher with a focus on the intersection of NLP and 3D generation. Additionally, I have expertise in AI security, particularly in areas like LLM watermarking and steganography."
 
 education:  
+  - institute: "Hong Kong University of Science and Technology"
+    degree: "PhD of AI for Multimedia"
+    dates: "2025.09 - Present"
+    icon: "misc/hkust.svg"
   - institute: "Nanyang Technological University"  
     degree: "Master of Science in Artificial Intelligence (MSAI.)"  
     dates: "2023.01 - 2024.05"  
@@ -23,7 +27,7 @@ career:
   - title: "AI Researcher"  
     company: "Huawei Singapore Research Center"  
     link: "https://www.huawei.com/en/"  
-    dates: "2024.05 - Present"  
+    dates: "2024.05 - 2025.07"  
   - title: "Research Intern"  
     company: "Huawei Hong Kong Research Center"  
     link: "https://www.huawei.com/en/"  
@@ -35,8 +39,8 @@ career:
 
 research_interest:  
   - Multi-modality LLMs
-  - 3D Scene Understanding/Generation/Arrangement
-  - Reinforcement Learning for LM
+  - Generative Model for Multimedia
+  - AI for Social Computing and Value Alignment
   # - "Prompt Engine and Multi-agent System for Large Language Models"
   # - Large Language Models watermarking and detection
 
