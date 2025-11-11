@@ -1,4 +1,4 @@
-# Ignore the contents of the _site directory
+# Ignore the contents of the _site directory and other cache directories
 _site/
 .idea/
 .DS_Store
@@ -7,6 +7,7 @@ _posts/2199-01-01-PaperReading.md
 _posts/2023-01-09-PaperReading-PointCloudAugmentation&WeightedLocalTransformations.md
 _publications/2009-10-01-paper-title-number-1.md
 _publications/_*
+.sass-cache/
 
 # Ignore the directory for local files during development
 local/
@@ -14,6 +15,13 @@ local/
 # Ignore the Gemfile that is generated
 Gemfile.lock
 
-# Ingore files created by npm
+# Ignore files created by npm
 node_modules
 package-lock.json
+
+# Ignore the vendor file at root level and bundle for alternative installation
+/vendor/
+.bundle/
+
+# Ignore folders related to IDEs
+.vscode/
