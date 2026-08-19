@@ -7,11 +7,11 @@ author_profile: true
 
 {% if site.author.googlescholar %}
   <p>
-  The following are selected publications.
+  The following are selected publications and recent preprints.
   For a complete list of my papers, please visit <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>. 
   </p>
   <p>
-  * denotes equal contribution.
+  * denotes equal contribution. Preprints are works in progress and have not yet been formally published.
   </p>  
 {% endif %}
 
@@ -154,7 +154,7 @@ author_profile: true
 <script type="text/javascript">  
     function toggle(id) {  
         var element = document.getElementById(id);  
-        if (element.style.display === "none") {  
+        if (window.getComputedStyle(element).display === "none") {
             element.style.display = "block";  
         } else {  
             element.style.display = "none";  

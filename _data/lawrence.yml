@@ -7,7 +7,7 @@ redirect_from:
 greeting: "Greetings 👋 Welcome to my page!"  
 quote1: "There is no place like 127.0.0.1"  
 quote2: "And things are not always #000000 or #FFFFFF"  
-about_me: "I am a Ph.D. student in Hong Kong University of Science and Technology, supervised by <a href='https://yunyasong.github.io/'>Prof. Yunya Song</a> and <a href='https://anyirao.com/'>Prof. Anyi Rao</a>. As a Researcher, I specialize in advancing LLMs across diverse domains, including enhancing reasoning capabilities and improving generation quality. Prior to joining Huawei, I worked as an independent researcher with a focus on the intersection of NLP and 3D generation. Additionally, I have expertise in AI security, particularly in areas like LLM watermarking and steganography."
+about_me: "I am a Ph.D. student in the Individualized Interdisciplinary Program (AI for Multimedia) at the Hong Kong University of Science and Technology, supervised by <a href='https://yunyasong.github.io/'>Prof. Yunya Song</a> and <a href='https://anyirao.com/'>Prof. Anyi Rao</a>. My research spans efficient generative language models, multimodal reasoning and generation, and trustworthy AI agents. I am particularly interested in diffusion and linear-time language models, financial AI and social computing, and AI security topics such as LLM watermarking and linguistic steganography. Before starting my Ph.D., I was an AI Researcher at Huawei's Singapore Research Center, where I worked on large language models."
 
 education:  
   - institute: "Hong Kong University of Science and Technology"
@@ -38,11 +38,10 @@ career:
     dates: "2022.06 - 2022.12"  
 
 research_interest:  
-  - Multi-modality LLMs
-  - Generative Model for Multimedia
-  - AI for Social Computing and Value Alignment
-  # - "Prompt Engine and Multi-agent System for Large Language Models"
-  # - Large Language Models watermarking and detection
+  - Efficient Generative Language Models
+  - Multimodal Reasoning and Generation
+  - Trustworthy AI Agents and Financial AI
+  - AI Security, Watermarking, and Steganography
 
 publications_link: "https://mrtater.github.io/publications/"  
 
